@@ -1,38 +1,175 @@
+* {
+  color: #021C1E;
+}
 .App {
-  text-align: center;
+  background-color: #004445;
+  height: 100%;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.toolbar {
+  padding: 15px;
+  background-color: #2C7873;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: 0.1s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.btn:hover {
+  color: #6FB98F;
+}
+.registration {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+.registration input {
+  margin: 10px;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.registration select {
+  margin: 10px;
+  width: 175px;
+  text-align: center;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.registration button {
+  margin: 10px;
+  border-radius: 5px;
+  width: 175px;
+  background-color: #6FB98F;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.registration button:hover {
+  background-color: #5d9b78;
+}
+.card {
+  width: 50%;
+  height: 50%;
+  background-color: #2C7873;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+}
+.card div {
+  margin: 10px;
+  font-weight: 600;
+}
+.w100 {
+  width: 100%;
+}
+.h100 {
+  height: 100%;
+}
+.w100vw {
+  width: 100vw;
+}
+.h100vh {
+  height: 100vh;
+}
+.postCard {
+  width: 60%;
+  padding: 20px;
+  background-color: #2C7873;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  margin-top: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.bidCard {
+  width: 90%;
+  padding: 10px;
+  background-color: #6FB98F;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.bidCard div:last-child {
+  margin-left: 20px;
+}
+.postCard img {
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+.postCard:first-child {
+  margin-bottom: 30px;
+}
+.postCard:hover {
+  transform: scale(1.02);
+}
+.postContainer {
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #2C7873;
+  height: 75%;
+  width: 80%;
+  font-size: 24px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+  overflow-y: scroll;
+
+}
+.postContainer img {
+  max-width: 100%;
+  max-height: 200px;
+}
+.mbt-20 {
+  margin-top: 20px;
+}
+.mbt-20 div {
+  margin-left: 20px;
+}
+.mbt-20 button {
+  margin: 10px;
+  border-radius: 5px;
+  width: 175px;
+  background-color: #6FB98F;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.mbt-20 input {
+  padding: 0;
+  height: 26px;
+}
+.mr-20 {
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.flex1 {
+  flex: 1;
+}
+.d-flex {
+  display: flex;
+}
+.column {
+  flex-direction: column;
+}
+.column-reverse {
+  flex-direction: column-reverse;
+}
+.j-center {
+  justify-content: center;
+}
+.a-center {
+  align-items: center;
+}
+.space-btw {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
 }
